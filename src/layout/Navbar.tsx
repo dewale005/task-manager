@@ -19,7 +19,7 @@ type INavbar = React.FC<{}>;
 const Navbar: INavbar = () => {
   const { setTheme, theme } = useTheme();
   return (
-    <nav className="flex flex-row justify-between items-center sticky p-4 m-auto">
+    <nav className="flex flex-row justify-between items-center sticky px-4 py-6 m-auto">
       <Button
         variant="secondary"
         onClick={() => null}
